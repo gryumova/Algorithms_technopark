@@ -56,7 +56,7 @@ void bfs(const IGraph& graph, void (*callback)(int))
 
 int main()
 {
-    ListGraph graph1(9);
+    ListGraph graph1(7);
 
     graph1.AddEdge(0, 1);
     graph1.AddEdge(1, 5);
